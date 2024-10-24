@@ -1,0 +1,59 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+[class^="questao"] {
+    margin-bottom: 20px;
+}
+
+
+h3[id^="resultado"] {
+    margin-top: 15px;
+    color: #28a745;
+}
+
+
+.retorno {
+    text-align: center;
+    margin-top: 20px;
+}
+
